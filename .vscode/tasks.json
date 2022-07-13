@@ -8,8 +8,10 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                // "${fileDirname}\\*.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-lwsock32"
             ],
             "options": {
                 "cwd": "${fileDirname}"
