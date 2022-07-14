@@ -3,6 +3,7 @@
 
 #include <vector>
 
+
 const int MAXBOUNDROW = 20;
 const int MAXBOUNDCOL = 200;
 const char L = '{'; //左边界形状
@@ -37,14 +38,20 @@ class BackGround
 
     public:
         BackGround();
-        int GetUBound() {return this->uppperBound;}
-        int GetBBound() {return this->bottomBound;}
-        int GetLBound() {return this->llefttBound;}
-        int GetRBound() {return this->righttBound;}
+        int GetUBound() const {return this->uppperBound;}
+        int GetBBound() const {return this->bottomBound;}
+        int GetLBound() const {return this->llefttBound;}
+        int GetRBound() const {return this->righttBound;}
+        const std::vector<std::vector<char>> & GETBG() const {return this->_backGround;}
 
         void GenerUI();//创建UI
         void MovePillars();//移动柱子同时生成新的柱子
-        ~BackGround() {delete pillars;}
+
+        void GenerBird(int x, int y, char bird); //生成小鸟
+        void ShuffBird(int x, int y); //删除小鸟
+
+
+        ~BackGround() {delete [] pillars;} //C++沉思
 };
 
 #endif

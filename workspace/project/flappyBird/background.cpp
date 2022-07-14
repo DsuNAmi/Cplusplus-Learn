@@ -2,6 +2,7 @@
 
 #include <iostream>
 
+
 BackGround::BackGround() : uppperBound(0), bottomBound(MAXBOUNDROW),llefttBound(0),righttBound(MAXBOUNDCOL),_backGround(std::vector<std::vector<char>>(bottomBound,std::vector<char>(righttBound,' '))) {
     for(int UI = this->uppperBound; UI < this->bottomBound; ++UI)
     {
@@ -108,4 +109,16 @@ void BackGround::MovePillars()
             --(this->pillars[pillar]);
         }
     }
+}
+
+void BackGround::GenerBird(int x, int y, char bird)
+{
+    if(this->_backGround[y][x] == ' ') this->_backGround[y][x] = bird;
+    else this->_backGround[y][x] += bird;
+    // this->_backGround[y][x] = bird;
+}
+
+void BackGround::ShuffBird(int x, int y)
+{
+    this->_backGround[y][x] = ' ';
 }
