@@ -55,7 +55,7 @@ void BackGround::GenerPillar(int pillar)
  */
 void BackGround::ProducePillars()
 {
-    srand(0);
+    // srand(0);
     int interval = this->righttBound / INITPILLARS;
     this->pillars[0] = interval / 3;
     for(int pillar = 1; pillar < INITPILLARS; ++pillar) //开始时第一个柱子默认在第interval / 3位置，且不生成
@@ -69,7 +69,7 @@ void BackGround::ProducePillars()
 
 void BackGround::MovePillars()
 {
-    srand(1);
+    // srand(1);
     //先平移柱子
     for(int pillar = 0; pillar < INITPILLARS; ++pillar)
     {

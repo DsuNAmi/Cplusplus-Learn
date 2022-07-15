@@ -30,15 +30,7 @@ class Bird
         int GetYCoord() const {return this->yCoord;}
         char GetFace() const {return this->birdFace;}
 
-        bool SetBirdPosition(int x, int y, const std::vector<std::vector<char>> & backGround)
-        {
-            //越界判断
-            if(x <= llefttBound || x >= righttBound - 1 || y <= uppperBound || y >= bottomBound - 1) return false;
-            if(IsCollision(backGround)) return false;
-            this->xCoord = x;
-            this->yCoord = y;
-            return true;
-        }
+        bool SetBirdPosition(int x, int y, const std::vector<std::vector<char>> & backGround);
 
         bool IsCollision(const std::vector<std::vector<char>> & backGround) const; //检测碰撞
 

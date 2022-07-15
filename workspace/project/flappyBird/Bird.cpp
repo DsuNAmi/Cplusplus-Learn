@@ -10,6 +10,15 @@ Bird::Bird(int x, int y, const std::vector<std::vector<char>> & backGround)
     this->SetBirdPosition(x,y,backGround);
 }
 
+bool Bird::SetBirdPosition(int x, int y, const std::vector<std::vector<char>> & backGround)
+{
+    if(x <= llefttBound || x >= righttBound - 1 || y <= uppperBound || y >= bottomBound - 1) return false;
+    if(IsCollision(backGround)) return false;
+    this->xCoord = x;
+    this->yCoord = y;
+    return true;
+}
+
 bool Bird::IsCollision(const std::vector<std::vector<char>> & backGround) const
 {
     if((backGround[this->yCoord][this->xCoord] == P + this->birdFace) || 
@@ -45,6 +54,6 @@ bool Bird::MoveLeft()
 bool Bird::MoveRight()
 {
     if(this->xCoord >= this->righttBound - 2) return false;
-    ++(this->yCoord);
+    ++(this->xCoord);
     return true;
 }
