@@ -16,10 +16,14 @@ class Bird
         int righttBound;
         //鸟的形象
         char birdFace;
+        int xTarget;     //目标是几个柱子
+        int yTarget;     //飞到的高度
     public:
         Bird() : xCoord(1), yCoord(1), 
                  uppperBound(0),bottomBound(MAXBOUNDROW),llefttBound(0),righttBound(MAXBOUNDCOL),
-                 birdFace('#')
+                 birdFace('#'),
+                 xTarget(1),
+                 yTarget(0)
                  {}
         Bird(int x, int y, const std::vector<std::vector<char>> & backGround);
         int GetUBound() const {return this->uppperBound;}
@@ -39,6 +43,11 @@ class Bird
         bool MoveDown();
         bool MoveLeft(); 
         bool MoveRight();
+
+        //获得当前飞往的目标
+        void GetCurTarget(const std::vector<std::vector<char>> & backGround,const int * pillars);
+        void AutoFly(const std::vector<std::vector<char>> & backGround,const int * pillars);
+        bool IsArrive(const std::vector<std::vector<char>> & backGround,const int * pillars);
 };
 
 

@@ -43,6 +43,7 @@ class BackGround
         int GetLBound() const {return this->llefttBound;}
         int GetRBound() const {return this->righttBound;}
         const std::vector<std::vector<char>> & GETBG() const {return this->_backGround;}
+        const int * GetPillars() const {return pillars;}
 
         void GenerUI();//创建UI
         void MovePillars();//移动柱子同时生成新的柱子
