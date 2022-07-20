@@ -1,5 +1,6 @@
 #include <iostream>
 #include <winsock2.h>
+#include <fstream>
 
 #include "fileError.h"
 
@@ -13,7 +14,7 @@ int main()
     WSADATA wsadata;
     SOCKET servSocket, clntSocket;
     SOCKADDR_IN servAddr, clntAddr;
-    FILE * source;
+    // FILE * source;
 
 
     if(WSAStartup(MAKEWORD(2,2),&wsadata)) ErrorHandling(StartUpError);
@@ -43,22 +44,28 @@ int main()
     else
     {
         //findFile
-        source = fopen(fileName,"r");
-        if(source == nullptr)
+        // source = fopen(fileName,"r");
+        ifstream fin(fileName,ios::in);
+        if(!fin.is_open())
         {
             ErrorHandling("No such File");
         } 
         else
         {
             char fileBuff[1024];
-            while(!feof(source))
+            // string fileBuff;
+            while(fin >> fileBuff)
             {
-                fread(fileBuff,1,BUFFSIZE,source);
+                // cout << fileBuff << endl;
                 if((rl = send(clntSocket,fileBuff,BUFFSIZE,0)) == SOCKET_ERROR) break;
             }
         }
-        fclose(source);
-        cout << "Send file Over!\n";
+        fin.close();
+        cout << "Send File Over!" << endl;
+        char message[BUFFSIZE];
+        shutdown(clntSocket,SD_SEND);
+        rl = recv(clntSocket,message,BUFFSIZE,0);
+        printf("%s",message);
     }
 
     closesocket(clntSocket);

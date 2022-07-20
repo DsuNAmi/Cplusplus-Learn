@@ -1,11 +1,12 @@
 #include <iostream>
 #include <winsock2.h>
+#include <fstream>
 
 #include "fileError.h"
 
 using namespace std;
 
-const char * fileName = "waitForTrans.txt";
+const char * fileName = "D:/Learn/C++Learn/workspace/project/TCPFileTrans/waitForTrans.txt";
 const char * downloadName = "download.txt";
 
 
@@ -15,7 +16,7 @@ int main()
     WSADATA wsadata;
     SOCKET sock;
     SOCKADDR_IN addr;
-    FILE * source;
+    // FILE * source;
 
     if(WSAStartup(MAKEWORD(2,2),&wsadata)) ErrorHandling(StartUpError);
 
@@ -35,24 +36,31 @@ int main()
 
     //recvFile
     char fileBuff[BUFFSIZE];
-    source = fopen(downloadName,"wb");
-    if(source == nullptr)
+    // string fileBuff;
+    // source = fopen(downloadName,"wb");
+    ofstream fout(downloadName,ios::out);
+
+    if(!fout.is_open())
     {
         cout << "file create failed\n";
         closesocket(sock);
         WSACleanup();
+        std::abort();
     }
 
     while((sl = recv(sock,fileBuff,BUFFSIZE,0)) > 0)
     {
-        fwrite(fileBuff,sizeof(char),sl,source);
+        fout << fileBuff;
+        fout << ' ';
     }
 
-    fwrite("\0",sizeof(char),1,source);
+
+    fout.close();
     cout << "recv Over!\n";
 
-
-
+    const char * message = "Thank you!";
+    // shutdown(sock,SD_RECEIVE);
+    sl = send(sock,message,strlen(message),0);
     closesocket(sock);
     WSACleanup();
 
