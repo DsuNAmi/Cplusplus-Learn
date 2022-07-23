@@ -1,11 +1,12 @@
 #ifndef __CHARACTER__
 #define __CHARACTER__
 
+#include "item.h"
 #include <iostream>
 
 class Character
 {
-    private:
+    protected:
         int health;    //血条
         int magic;     //蓝量
         char * name;            //名称
@@ -19,7 +20,7 @@ class Character
         Character(const char * name,
                   int health, int magic, 
                   int attack, int defense);
-        ~Character() {delete [] name;}
+        virtual ~Character() {delete [] this->name;}
         void Check();
 
         //SeeMember;
@@ -27,11 +28,10 @@ class Character
         int getMagic() const {return this->magic;}
         int getAttack() const {return this->attack;}
         int getDefense() const {return this->defense;}
-        const char * getName() const {return name;}
+        const char * getName() const;
 
-
-        bool Attack(Character & c); //攻击方法
-
+        bool Attack(Character * c);                                     //攻击方法
+        virtual const char * UseItem(const Item & item);              //使用物品
 };
 
 
