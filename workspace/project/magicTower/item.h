@@ -11,11 +11,11 @@ class Item
         Effect effect;
         int value;      //每个效果的value
         char * name;    //物品名称
-        Item(const Item & item);
-        Item & operator=(const Item & item);
     public:
-        Item() : effect(NOTHING),value(0),name(nullptr) {};
+        Item();
         Item(Effect effect, int value, const char * name);
+        Item(const Item & i);
+        Item & operator=(const Item & i);
         ~Item() {delete [] this->name;}
 
         const char * getName() const;

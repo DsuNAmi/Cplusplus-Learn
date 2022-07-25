@@ -1,19 +1,5 @@
 #include "hero.h"
 
-
-Hero::Hero(const char * name,
-           int health, int magic, 
-           int attack, int defense,
-           int gold,
-           int xCoord, int yCoord)
-           : Character(name,health,magic,attack,defense),
-             gold(gold),
-             xCoord(xCoord),yCoord(yCoord),
-             alive(true)
-{
-    
-}
-
 const char * Hero::UseItem(const Item & item)
 {
     //可能会有多种增益的
@@ -60,12 +46,4 @@ const char * Hero::UseItem(const Item & item)
         break;
     }
     return "";
-}
-
-void Hero::ChangeAlive()
-{
-    if(this->health <= 0)
-    {
-        alive = false;
-    }
 }

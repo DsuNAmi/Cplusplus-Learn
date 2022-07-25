@@ -1,12 +1,10 @@
 #include <iostream>
-#include <memory>
 
 #include "character.h"
 #include "hero.h"
 
 int main()
 {
-
     printf("Do the Magic Tower");
 
 
@@ -26,7 +24,7 @@ int main()
     // printf("%s used %s!\n",hero1.getName(),healDrug.getName());
     // printf("%s\n",hero1.UseItem(healDrug));
     // printf("%s-health: %d\n",hero1.getName(),hero1.getHealth());
-    
+
 
     return 0;
 }

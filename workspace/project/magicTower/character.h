@@ -1,8 +1,13 @@
 #ifndef __CHARACTER__
 #define __CHARACTER__
 
-#include "item.h"
 #include <iostream>
+#include <vector>
+
+#include "item.h"
+#include "game.h"
+
+
 
 class Character
 {
@@ -12,16 +17,28 @@ class Character
         char * name;            //名称
         int attack;
         int defense;
-        //禁用复制？
-        Character(const Character & c);
-        Character & operator=(const Character & c);
-    public:
-        Character() : health(0),magic(0),attack(0),defense(),name(nullptr) {}
+        int xCoord;
+        int yCoord;
+        bool alive;
+        std::vector<Item> items;
+        
+        
+        Character();
         Character(const char * name,
                   int health, int magic, 
-                  int attack, int defense);
+                  int attack, int defense,
+                  int xCoord, int yCoord,
+                  bool alive,
+                  const std::vector<Item> & items);
+        Character(const Character & c);
+        Character & operator=(const Character & c);
         virtual ~Character() {delete [] this->name;}
+        
+        
+        
         void Check();
+        bool SetCharacterPosition(int x, int y);
+        void ChangeAlive();
 
         //SeeMember;
         int getHealth() const {return this->health;}
@@ -29,6 +46,7 @@ class Character
         int getAttack() const {return this->attack;}
         int getDefense() const {return this->defense;}
         const char * getName() const;
+        bool GetAlive() {return this->alive;}
 
         bool Attack(Character * c);                                     //攻击方法
         virtual const char * UseItem(const Item & item);              //使用物品
