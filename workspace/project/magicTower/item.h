@@ -16,7 +16,7 @@ class Item
         Item(Effect effect, int value, const char * name);
         Item(const Item & i);
         Item & operator=(const Item & i);
-        ~Item() {delete [] this->name;}
+        ~Item();
 
         const char * getName() const;
         const Effect getEffect() const {return this->effect;}

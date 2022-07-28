@@ -32,7 +32,7 @@ class Character
                   const std::vector<Item> & items);
         Character(const Character & c);
         Character & operator=(const Character & c);
-        virtual ~Character() {delete [] this->name;}
+        virtual ~Character();
         
         
         

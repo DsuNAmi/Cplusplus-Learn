@@ -53,3 +53,8 @@ const char * Item::getName() const
     
     return this->name;
 }
+
+Item::~Item()
+{
+    delete [] this->name;
+}

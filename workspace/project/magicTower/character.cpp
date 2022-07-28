@@ -199,3 +199,9 @@ void Character::ChangeAlive()
         this->alive = false;
     }
 }
+
+
+Character::~Character()
+{
+    delete [] this->name;
+}
