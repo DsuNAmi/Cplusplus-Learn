@@ -47,3 +47,8 @@ const char * Hero::UseItem(const Item & item)
     }
     return "";
 }
+
+void Hero::ShowInfo() const
+{
+    std::cout << "Nothing For Now!" << std::endl;
+}

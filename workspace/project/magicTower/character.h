@@ -1,13 +1,9 @@
 #ifndef __CHARACTER__
 #define __CHARACTER__
 
-#include <iostream>
-#include <vector>
 
-#include "item.h"
 #include "game.h"
-
-
+#include "item.h"
 
 class Character
 {
@@ -33,11 +29,13 @@ class Character
         Character(const Character & c);
         Character & operator=(const Character & c);
         virtual ~Character();
-        
-        
-        
         void Check();
         bool SetCharacterPosition(int x, int y);
+
+    public:
+        bool Attack(Character * c);                                     //攻击方法
+        virtual const char * UseItem(const Item & item);              //使用物品
+
         void ChangeAlive();
 
         //SeeMember;
@@ -47,9 +45,8 @@ class Character
         int getDefense() const {return this->defense;}
         const char * getName() const;
         bool GetAlive() {return this->alive;}
+        virtual void ShowInfo() const {printf("No One Character!");}
 
-        bool Attack(Character * c);                                     //攻击方法
-        virtual const char * UseItem(const Item & item);              //使用物品
 };
 
 

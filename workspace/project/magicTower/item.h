@@ -1,9 +1,10 @@
 #ifndef __ITEM__
 #define __ITEM__
 
-#include <string.h>
 
+#include <cstring>
 #include "effect.h"
+
 
 class Item
 {
