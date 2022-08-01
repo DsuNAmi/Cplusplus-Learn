@@ -1,5 +1,50 @@
 #include "hero.h"
 
+
+
+Hero::Hero()
+:Character(),
+ gold(0)
+{
+
+}
+
+Hero::Hero(const char * name,
+           int health, int magic,
+            int attack, int defense,
+            int xCoord, int yCoord,
+            bool alive,
+            const std::vector<Item> & items,
+            int gold)
+            : Character(name,
+                        health,magic,
+                        attack,defense,
+                        xCoord,yCoord,
+                        alive,
+                        items),
+              gold(gold)
+{
+
+}
+
+
+Hero::Hero(const Hero & h)
+:Character(h),
+ gold(h.gold)
+{
+
+}
+
+Hero & Hero::operator=(const Hero & h)
+{
+    if(this != &h)
+    {
+        Character::operator=(h);
+        this->gold = h.gold;
+    }
+    return *this;
+}
+
 const char * Hero::UseItem(const Item & item)
 {
     //可能会有多种增益的
@@ -48,7 +93,28 @@ const char * Hero::UseItem(const Item & item)
     return "";
 }
 
+const char* Hero::UseItemByIndex(int itemIndex)
+{
+    int maxIndex = static_cast<int>(this->items.size());
+    if(itemIndex >= maxIndex || itemIndex < 0)
+    {
+        return "";
+    } 
+    return this->UseItem(this->items[itemIndex]);
+}
+
 void Hero::ShowInfo() const
 {
-    std::cout << "Nothing For Now!" << std::endl;
+    std::cout << "Nothing For Now! Attributes" << std::endl;
+}
+
+void Hero::ShowItems() const
+{
+    int length = static_cast<int>(this->items.size());
+    std::cout << "Items:" << std::endl;
+    for(int item = 0; item < length; ++item)
+    {
+        std::cout << item + 1 << ". " << this->items[item].getName() << std::endl;
+    }
+    std::cout << "---------------------------------------" << std::endl;
 }

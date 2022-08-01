@@ -2,7 +2,6 @@
 #define __CHARACTER__
 
 
-#include "game.h"
 #include "item.h"
 
 class Character

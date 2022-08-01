@@ -1,8 +1,7 @@
 #ifndef __ITEM__
 #define __ITEM__
 
-
-#include <cstring>
+#include "game.h"
 #include "effect.h"
 
 

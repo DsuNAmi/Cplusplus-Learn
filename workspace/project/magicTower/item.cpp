@@ -36,7 +36,7 @@ Item & Item::operator=(const Item & i)
         this->effect = i.effect;
         this->value = i.value;
 
-        delete this->name;
+        delete [] this->name;
         int size = strlen(i.name);
         this->name = new char[size + 1];
         strcpy(this->name,i.name);
