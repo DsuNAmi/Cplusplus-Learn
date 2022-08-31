@@ -7,11 +7,11 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                // "${file}",
-                "${fileDirname}\\*.cpp",
+                "${file}",
+                // "${fileDirname}\\*.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                // "-lwsock32"
+                "-lwsock32"
             ],
             "options": {
                 "cwd": "${fileDirname}"
