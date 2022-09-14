@@ -18,9 +18,13 @@ std::map<std::vector<int>, Monster*> monsters;
 int main()
 {
     printf("Do the Magic Tower\n");
+    TestCreateMonster();
+    return 0;
+}
 
-    
 
+void TestCreateMonster()
+{
     //创建五个怪物，一个怪物一层
     std::vector<Layer> layers(Game::layerSize);
     Tower magicTower(layers);
@@ -100,14 +104,6 @@ int main()
     }
 
     printf("Game Over!\n");
-
-    return 0;
-}
-
-
-void TestCreateMonster()
-{
-
 }
 
 void TestTowerAndLayers()

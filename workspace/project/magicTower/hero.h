@@ -34,6 +34,9 @@ class Hero : public Character
         
         const char * UseItemByIndex(int itemIndex);             //自选使用物品
 
+        //移动
+        void Move(Game::HeroMOve moveDirection);
+
 };
 
 #endif

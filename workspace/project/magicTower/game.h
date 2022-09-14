@@ -37,8 +37,14 @@ class Game
         static const char UPSTAIRS = 'U';
         static const char DOWNSTAIRS = 'D';
 
-        
+        enum class HeroMOve {
+            UPUP = 1,
+            DOWN,
+            LEFT,
+            RIGH, 
+        };
 
+    
         static inline bool GameOver(Hero * h) {return h;}
 
         static inline bool GamePass(Monster * m) {return m;}

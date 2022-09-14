@@ -118,3 +118,9 @@ void Hero::ShowItems() const
     }
     std::cout << "---------------------------------------" << std::endl;
 }
+
+
+void Hero::Move(Game::HeroMOve moveDirection)
+{
+    
+}
