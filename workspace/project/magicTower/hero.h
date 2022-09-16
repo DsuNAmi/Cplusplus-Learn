@@ -25,8 +25,11 @@ class Hero : public Character
         Hero & operator=(const Hero & h);
         
 
+        int GetX() {return this->xCoord;}
+        int GetY() {return this->yCoord;}
 
-
+        int GetCoord(Game::Pos pos) {return pos == Game::Pos::xCoord ? this->GetX() : this->GetY();}
+        
 
         const char * UseItem(const Item & item);                //使用物品，默认是不保存物品
         void ShowInfo() const;                                  //显示当前属性信息
@@ -35,7 +38,7 @@ class Hero : public Character
         const char * UseItemByIndex(int itemIndex);             //自选使用物品
 
         //移动
-        void Move(Game::HeroMOve moveDirection);
+        void Move(Game::HeroMove moveDirection);
 
 };
 

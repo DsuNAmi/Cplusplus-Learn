@@ -106,10 +106,10 @@ const char * Character::getName() const
 
 bool Character::SetCharacterPosition(int x, int y)
 {
-    if(x <= Game::LEFTTBOUND     || 
-       x >= Game::RIGHTBOUND - 1 || 
-       y <= Game::UPPERBOUND     ||
-       y >= Game::BOTOMBOUND - 1)
+    if(y <= Game::LEFTTBOUND     || 
+       y >= Game::RIGHTBOUND - 1 || 
+       x <= Game::UPPERBOUND     ||
+       x >= Game::BOTOMBOUND - 1)
     {
         this->xCoord = 1;
         this->yCoord = 1;

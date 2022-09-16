@@ -7,19 +7,136 @@
 #include "monster.h"
 
 constexpr int INPUTSIZE = 2;
+constexpr bool UPPERCASE = true;
+
+
 
 void TestAttack();
 void TestTowerAndLayers();
 void TestCreateMonster();
-
+void TestHero();
+void HeroChangePosition(Game::HeroMove moveDirection, Hero * hero, Tower & magicTower, Game::Pos pos,
+                        std::vector<int> & HeroPosition);
+void HeroChangeLayer(Tower & magicTower,std::vector<int> & HeroPosition, bool up);
 
 std::map<std::vector<int>, Monster*> monsters;
 
 int main()
 {
     printf("Do the Magic Tower\n");
-    TestCreateMonster();
+    // TestCreateMonster();
+    TestHero();
     return 0;
+}
+
+
+void HeroChangePosition(Game::HeroMove moveDirection, Hero * hero, Tower & magicTower, Game::Pos pos,
+                        std::vector<int> & HeroPosition)
+{
+    magicTower.ReMoveSomethingOnLayer(HeroPosition[static_cast<int>(Game::Pos::xCoord)],
+                                              HeroPosition[static_cast<int>(Game::Pos::yCoord)],
+                                              HeroPosition[static_cast<int>(Game::Pos::layer)]);
+    hero->Move(moveDirection);
+    for(auto x : HeroPosition)
+    {
+        printf("%d ",x);
+    }
+    HeroPosition[static_cast<int>(pos)] = hero->GetCoord(pos);
+    magicTower.AddSomethingOnLayer(MapItems::HERO, HeroPosition[static_cast<int>(Game::Pos::xCoord)],
+                                            HeroPosition[static_cast<int>(Game::Pos::yCoord)],
+                                            HeroPosition[static_cast<int>(Game::Pos::layer)]);
+}
+
+void HeroChangeLayer(Tower & magicTower,std::vector<int> & HeroPosition, bool up)
+{
+    magicTower.ReMoveSomethingOnLayer(HeroPosition[static_cast<int>(Game::Pos::xCoord)],
+                                              HeroPosition[static_cast<int>(Game::Pos::yCoord)],
+                                              HeroPosition[static_cast<int>(Game::Pos::layer)]);
+    HeroPosition = Game::ChangeLayer(up,HeroPosition[static_cast<int>(Game::Pos::layer)]);
+    magicTower.AddSomethingOnLayer(MapItems::HERO, HeroPosition[static_cast<int>(Game::Pos::xCoord)],
+                                            HeroPosition[static_cast<int>(Game::Pos::yCoord)],
+                                            HeroPosition[static_cast<int>(Game::Pos::layer)]);
+}
+
+void TestHero()
+{
+    std::vector<Layer> layers(Game::layerSize);
+    Tower magicTower(layers);
+
+    //创建一个可以走的英雄
+    std::vector<Item> HeroItems;
+    
+    std::vector<int> HeroPosition {12,25,0};
+
+    Hero * hero = new Hero("hujingrui",100,100,100,100,12,25,true,HeroItems,100);
+    magicTower.AddSomethingOnLayer(MapItems::HERO, HeroPosition[static_cast<int>(Game::Pos::xCoord)],
+                                                   HeroPosition[static_cast<int>(Game::Pos::yCoord)],
+                                                   HeroPosition[static_cast<int>(Game::Pos::layer)]);
+
+    char inputChar[INPUTSIZE];
+
+    printf("Press Enter to Start!\n");
+
+    std::cin.getline(inputChar,2);
+
+
+    while(strcmp(inputChar,Game::QuitGame(UPPERCASE)) && strcmp(inputChar,Game::QuitGame(!UPPERCASE)))
+    {
+        printf("curFloor: %d floor.",magicTower.GetFloor());
+        printf("\n");
+        magicTower.ShowCurFloor();
+        printf("Press Enter a/A, w/W, s/S, d/D to Move your Hero!\n");
+        std::cin.getline(inputChar,2);
+        if(!strcmp(inputChar,Game::UpHero(UPPERCASE)) || !strcmp(inputChar,Game::UpHero(!UPPERCASE)))
+        {
+            printf("W/w");
+            HeroChangePosition(Game::HeroMove::UPUP,hero,magicTower,Game::Pos::xCoord,HeroPosition);
+        }
+        else if(!strcmp(inputChar,Game::DownHero(UPPERCASE)) || !strcmp(inputChar,Game::DownHero(!UPPERCASE)))
+        {
+            printf("S/s");
+            HeroChangePosition(Game::HeroMove::DOWN,hero,magicTower,Game::Pos::xCoord,HeroPosition);
+        }
+        else if(!strcmp(inputChar,Game::LeftHero(UPPERCASE)) || !strcmp(inputChar, Game::LeftHero(!UPPERCASE)))
+        {
+            printf("A/d");
+            HeroChangePosition(Game::HeroMove::LEFT,hero,magicTower,Game::Pos::yCoord,HeroPosition);      
+        }
+        else if(!strcmp(inputChar,Game::RightHero(UPPERCASE)) || !strcmp(inputChar, Game::RightHero(!UPPERCASE)))
+        {
+            printf("D/d");
+            HeroChangePosition(Game::HeroMove::RIGH,hero,magicTower,Game::Pos::yCoord,HeroPosition); 
+        }
+        else if(!strcmp(inputChar,Game::UpLayer(UPPERCASE)) || !strcmp(inputChar, Game::UpLayer(!UPPERCASE)))
+        {
+            printf("U/u");
+            HeroChangeLayer(magicTower,HeroPosition,UPPERCASE);
+        }
+        else if(!strcmp(inputChar, Game::DownLayer(UPPERCASE)) || !strcmp(inputChar, Game::DownLayer(UPPERCASE)))
+        {
+            printf("I/i");
+            HeroChangeLayer(magicTower,HeroPosition,!UPPERCASE);
+        }
+        else if(!strcmp(inputChar,Game::QuitGame(UPPERCASE)) || !strcmp(inputChar,Game::QuitGame(!UPPERCASE)))
+        {
+            printf("Q/q");
+            break;
+        }
+        else
+        {
+            printf("error Input\n");
+            break;
+        }
+    }
+
+    hero = nullptr;
+
+    if(!Game::GameOver(hero))
+    {
+        printf("Game Over!");
+    }
+
+    return;
 }
 
 

@@ -120,7 +120,27 @@ void Hero::ShowItems() const
 }
 
 
-void Hero::Move(Game::HeroMOve moveDirection)
+void Hero::Move(Game::HeroMove moveDirection)
 {
-    
+    switch (moveDirection)
+    {
+    case Game::HeroMove::UPUP:
+        this->xCoord -= 1;
+        this->xCoord = this->xCoord <= Game::UPPERBOUND ? Game::UPPERBOUND + 1 : this->xCoord;
+        break;
+    case Game::HeroMove::DOWN:
+        this->xCoord += 1;
+        this->xCoord = this->xCoord >= Game::BOTOMBOUND ? Game::BOTOMBOUND - 1 : this->xCoord;
+        break;;
+    case Game::HeroMove::LEFT:
+        this->yCoord -= 1;
+        this->yCoord = this->yCoord <= Game::LEFTTBOUND ? Game::LEFTTBOUND + 1 : this->yCoord;
+        break;
+    case Game::HeroMove::RIGH:
+        this->yCoord += 1;
+        this->yCoord = this->yCoord >= Game::RIGHTBOUND ? Game::RIGHTBOUND - 1 : this->yCoord;
+        break;
+    default:
+        break;
+    }
 }
