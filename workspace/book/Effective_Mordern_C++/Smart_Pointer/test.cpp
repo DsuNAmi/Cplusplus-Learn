@@ -40,7 +40,6 @@ auto spw = std::make_shared<Widget>();
 std::weak_ptr<Widget> wpw(spw);
 
 
-
 int main()
 {
 
