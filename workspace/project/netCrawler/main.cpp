@@ -8,7 +8,7 @@
 
 const int DEFAULT_PAGE_BUF_SIZE = 1048576;
 const char * imagePath = "img/";
-const char * htmlPath = "html/";
+const char * htmlPath = "html\\";
 
 std::unordered_set<std::string> vis;    //是否访问过的链接
 
@@ -166,6 +166,8 @@ bool GetHttpResponse(const std::string & url, char * &response, int & bytesRead)
                         " HTTP/1.1\r\nHost:" + \
                         host + "\r\nConnection:Close\r\n\r\n";
 
+    std::cout << request << std::endl;
+
     //发送数据
     if(SOCKET_ERROR == send(sock, request.c_str(),static_cast<int>(request.size()),0))
     {
@@ -248,7 +250,7 @@ void SaveFile(const std::string & response, const std::string & url)
     {
         fileName = url.substr(pos + 7);
     }
-
+    fileName.pop_back();
     fileName += ".txt";
 
     //存储所有url
