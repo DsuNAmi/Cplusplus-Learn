@@ -3,11 +3,14 @@
 
 #include "player.h"
 
+#include <memory>
+
 
 class Ball
 {
     private:
         Player * controlPlayer;         //who controls the ball?
+        // std::unique_ptr<Player> controlPlayer;
         bool hasPlayer;                 //anyone controls the ball
     
     public:

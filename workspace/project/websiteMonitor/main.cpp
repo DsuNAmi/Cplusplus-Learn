@@ -21,7 +21,7 @@ int main()
         std::cout << "Get find IP: " << urlParse.IP() << std::endl;
         nettools.SetIP(urlParse.IP());
         nettools.SetPort(std::to_string(static_cast<int>(Protocol::HTTPS)));
-        std::string request;
+        std::string request; 
         nettools.CreateRequest(request,urlParse.DATA(),
                                urlParse.HOST(),
                               "close",
@@ -42,7 +42,7 @@ int main()
         nettools.SSLDisconnect();
         // nettools.Connect();
         // nettools.Request(request);
-        // int bytesReaded = 0;
+        // int bytesReaded = 0; 
         // std::string response;
         // nettools.RecvC_Verson(bytesReaded, response);
         // std::cout << response << std::endl;
