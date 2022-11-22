@@ -1,0 +1,749 @@
+2022/11/17 20:11:35 [info] p: listen 80 port successed!
+2022/11/17 20:11:35 [info] p: listen 443 port successed!
+2022/11/17 20:11:36 [notice] p: worker process 144162 启动并开始运行.....!
+2022/11/17 20:11:43 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:11:43 [stderr] p: nginx: ready to send data 108.
+
+2022/11/17 20:11:43 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:12:19 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:12:19 [stderr] p: nginx: ready to send data 108. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:12:19 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:12:37 [stderr] p: nginx: CSocket::InRecyConnectQueue execute, and recyList
+
+2022/11/17 20:13:13 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:13:13 [stderr] p: nginx: ready to send data 108. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:13:13 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:13:21 [stderr] p: nginx: CSocket::InRecyConnectQueue execute, and recyList
+
+2022/11/17 20:13:57 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/17 20:14:38 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:14:38 [stderr] p: nginx: ready to send data 108. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:14:38 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:14:41 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/17 20:17:57 [stderr] p: nginx: CSocket::InRecyConnectQueue execute, and recyList
+
+2022/11/17 20:19:17 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/17 20:19:32 [info] p: listen 80 port successed!
+2022/11/17 20:19:32 [info] p: listen 443 port successed!
+2022/11/17 20:19:33 [notice] p: worker process 144391 启动并开始运行.....!
+2022/11/17 20:19:41 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:19:41 [stderr] p: nginx: ready to send data 65008.
+
+2022/11/17 20:19:41 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:19:48 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:19:48 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:19:48 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:19:50 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:19:50 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:19:50 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:19:54 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:19:54 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:19:55 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:19:59 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:19:59 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:19:59 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:04 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:04 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:04 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:07 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:07 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:07 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:09 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:10 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:10 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:10 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:10 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:10 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:11 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:11 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:11 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:12 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:12 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:12 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:13 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:13 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:13 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:17 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:17 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:17 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:23 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:23 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:23 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:26 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:26 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:26 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:27 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:27 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:27 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:28 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:28 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:28 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:29 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:29 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:29 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:35 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:35 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:35 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:36 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:36 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:36 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:37 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:37 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:37 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:41 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:41 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:41 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:42 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:42 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:42 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:44 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:44 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:44 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:45 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:45 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:45 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:49 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:49 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:49 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:50 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:50 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:50 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:50 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:50 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:50 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:51 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:51 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:51 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:20:53 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:20:53 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:20:53 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:21:01 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:21:01 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:21:01 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:21:02 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:21:02 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:21:02 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:21:03 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/17 20:21:03 [stderr] p: nginx: ready to send data 65008. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/17 20:21:03 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/17 20:21:17 [stderr] p: nginx: CSocket::InRecyConnectQueue execute, and recyList
+
+2022/11/21 09:02:02 [info] p: listen 80 port successed!
+2022/11/21 09:02:02 [info] p: listen 443 port successed!
+2022/11/21 09:02:04 [notice] p: worker process 179747 启动并开始运行.....!
+2022/11/21 09:02:39 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 09:02:39 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 09:02:39 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 09:02:58 [notice] p: signal 17 (SIGCHLD) received from 179747
+2022/11/21 09:02:58 [alert] p: pid= 179747 exited on signal 11!
+2022/11/21 09:10:57 [info] p: listen 80 port successed!
+2022/11/21 09:10:57 [info] p: listen 443 port successed!
+2022/11/21 09:10:58 [notice] p: worker process 179847 启动并开始运行.....!
+2022/11/21 09:11:05 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 09:11:05 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 09:11:05 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 09:11:23 [notice] p: signal 17 (SIGCHLD) received from 179847
+2022/11/21 09:11:23 [alert] p: pid= 179847 exited on signal 11!
+2022/11/21 09:22:42 [info] p: listen 80 port successed!
+2022/11/21 09:22:42 [info] p: listen 443 port successed!
+2022/11/21 09:22:43 [notice] p: worker process 180394 启动并开始运行.....!
+2022/11/21 09:22:57 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 09:22:57 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 09:22:57 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 09:23:58 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 09:23:58 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 09:23:58 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 09:27:59 [notice] p: signal 17 (SIGCHLD) received from 180394
+2022/11/21 09:27:59 [alert] p: pid= 180394 exited on signal 9!
+2022/11/21 09:41:40 [info] p: listen 80 port successed!
+2022/11/21 09:41:40 [info] p: listen 443 port successed!
+2022/11/21 09:41:41 [notice] p: worker process 181011 启动并开始运行.....!
+2022/11/21 09:44:27 [info] p: CSocket::NgxEpollProcessEvents() epoll_wait failed! (4: Interrupted system call) 
+2022/11/21 09:44:27 [notice] p: signal 17 (SIGCHLD) received from 181011
+2022/11/21 09:44:27 [alert] p: pid= 181011 exited on signal 11!
+2022/11/21 09:45:49 [info] p: listen 80 port successed!
+2022/11/21 09:45:49 [info] p: listen 443 port successed!
+2022/11/21 09:45:50 [notice] p: worker process 181056 启动并开始运行.....!
+2022/11/21 09:46:07 [info] p: CSocket::NgxEpollProcessEvents() epoll_wait failed! (4: Interrupted system call) 
+2022/11/21 09:46:07 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 09:46:07 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 09:46:07 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 09:46:15 [info] p: CSocket::NgxEpollProcessEvents() epoll_wait failed! (4: Interrupted system call) 
+2022/11/21 09:46:15 [notice] p: signal 17 (SIGCHLD) received from 181056
+2022/11/21 09:46:15 [alert] p: pid= 181056 exited on signal 11!
+2022/11/21 09:47:42 [info] p: listen 80 port successed!
+2022/11/21 09:47:42 [info] p: listen 443 port successed!
+2022/11/21 09:47:43 [notice] p: worker process 181087 启动并开始运行.....!
+2022/11/21 09:48:04 [info] p: CSocket::NgxEpollProcessEvents() epoll_wait failed! (4: Interrupted system call) 
+2022/11/21 09:48:04 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 09:48:04 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 09:48:04 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 09:48:20 [info] p: CSocket::NgxEpollProcessEvents() epoll_wait failed! (4: Interrupted system call) 
+2022/11/21 09:48:20 [notice] p: signal 17 (SIGCHLD) received from 181087
+2022/11/21 09:48:20 [alert] p: pid= 181087 exited on signal 11!
+2022/11/21 10:00:27 [info] p: listen 80 port successed!
+2022/11/21 10:00:27 [info] p: listen 443 port successed!
+2022/11/21 10:00:28 [notice] p: worker process 181297 启动并开始运行.....!
+2022/11/21 10:00:33 [info] p: CSocket::NgxEpollProcessEvents() epoll_wait failed! (4: Interrupted system call) 
+2022/11/21 10:00:33 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 10:00:33 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 10:00:33 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 10:02:03 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 10:40:22 [info] p: listen 80 port successed!
+2022/11/21 10:40:22 [info] p: listen 443 port successed!
+2022/11/21 10:40:23 [notice] p: worker process 182138 启动并开始运行.....!
+2022/11/21 10:40:28 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 10:41:50 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 10:41:58 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 10:45:02 [info] p: listen 80 port successed!
+2022/11/21 10:45:02 [info] p: listen 443 port successed!
+2022/11/21 10:45:03 [notice] p: worker process 182277 启动并开始运行.....!
+2022/11/21 10:45:09 [stderr] p: nginx: here
+
+2022/11/21 10:45:09 [stderr] p: nginx: hereSend
+
+2022/11/21 10:45:09 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 10:45:29 [stderr] p: nginx: -2110051320
+
+2022/11/21 10:45:29 [notice] p: signal 17 (SIGCHLD) received from 182277
+2022/11/21 10:45:29 [alert] p: pid= 182277 exited on signal 11!
+2022/11/21 11:12:54 [stderr] p: nginx: CSocket::INitialize() bind failed, portSeq = 0 (98: Address already in use) 
+ (98: Address already in use) 
+2022/11/21 11:12:54 [stderr] p: nginx: code exit, goodbye!
+
+2022/11/21 11:13:11 [info] p: listen 80 port successed!
+2022/11/21 11:13:11 [info] p: listen 443 port successed!
+2022/11/21 11:13:12 [notice] p: worker process 182985 启动并开始运行.....!
+2022/11/21 11:13:21 [stderr] p: nginx: pkglen 8
+
+2022/11/21 11:13:21 [stderr] p: nginx: milenheader 8
+
+2022/11/21 11:13:21 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:13:40 [stderr] p: nginx: 1854708744
+
+2022/11/21 11:13:40 [notice] p: signal 17 (SIGCHLD) received from 182985
+2022/11/21 11:13:40 [alert] p: pid= 182985 exited on signal 11!
+2022/11/21 11:26:26 [info] p: listen 80 port successed!
+2022/11/21 11:26:26 [info] p: listen 443 port successed!
+2022/11/21 11:26:27 [notice] p: worker process 183255 启动并开始运行.....!
+2022/11/21 11:26:29 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:28:07 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 11:28:16 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:28:36 [stderr] p: nginx: I'ME
+
+2022/11/21 11:28:36 [stderr] p: nginx: 1083710472
+
+2022/11/21 11:28:36 [notice] p: signal 17 (SIGCHLD) received from 183255
+2022/11/21 11:28:36 [alert] p: pid= 183255 exited on signal 11!
+2022/11/21 11:42:15 [info] p: listen 80 port successed!
+2022/11/21 11:42:15 [info] p: listen 443 port successed!
+2022/11/21 11:42:16 [notice] p: worker process 183784 启动并开始运行.....!
+2022/11/21 11:42:31 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:43:42 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:43:59 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 11:44:40 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:45:04 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 11:46:01 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 11:48:14 [info] p: listen 80 port successed!
+2022/11/21 11:48:14 [info] p: listen 443 port successed!
+2022/11/21 11:48:16 [notice] p: worker process 184077 启动并开始运行.....!
+2022/11/21 11:48:25 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:49:53 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 11:53:49 [info] p: listen 80 port successed!
+2022/11/21 11:53:49 [info] p: listen 443 port successed!
+2022/11/21 11:53:50 [notice] p: worker process 184232 启动并开始运行.....!
+2022/11/21 11:53:53 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 11:53:53 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 11:53:53 [stderr] p: nginx: sendSize::8
+
+2022/11/21 11:53:53 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 11:55:30 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 11:56:23 [info] p: listen 80 port successed!
+2022/11/21 11:56:23 [info] p: listen 443 port successed!
+2022/11/21 11:56:24 [notice] p: worker process 184264 启动并开始运行.....!
+2022/11/21 11:56:30 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/21 11:56:30 [stderr] p: nginx: ready to send data 108.
+
+2022/11/21 11:56:30 [stderr] p: nginx: sendSize::108
+
+2022/11/21 11:56:30 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 11:57:14 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/21 11:57:14 [stderr] p: nginx: ready to send data 108. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 11:57:14 [stderr] p: nginx: sendSize::108
+
+2022/11/21 11:57:14 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 11:57:58 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:04:30 [info] p: listen 80 port successed!
+2022/11/21 12:04:30 [info] p: listen 443 port successed!
+2022/11/21 12:04:31 [notice] p: worker process 184485 启动并开始运行.....!
+2022/11/21 12:04:36 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/21 12:04:36 [stderr] p: nginx: ready to send data 108.
+
+2022/11/21 12:04:36 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:05:34 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:05:34 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:05:34 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:06:00 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:06:00 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:06:00 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:06:02 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:06:04 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:06:04 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:06:04 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:06:55 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:07:10 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:07:10 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:07:10 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:07:21 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:07:30 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:08:37 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:08:52 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:08:52 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:08:52 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:10:23 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:10:48 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:10:48 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:10:48 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:11:08 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:11:08 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:11:08 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:11:28 [stderr] p: nginx: I'ME
+
+2022/11/21 12:11:28 [stderr] p: nginx: 2
+
+2022/11/21 12:11:28 [stderr] p: nginx: 2
+
+2022/11/21 12:12:11 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:13:00 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:16:04 [info] p: listen 80 port successed!
+2022/11/21 12:16:04 [info] p: listen 443 port successed!
+2022/11/21 12:16:05 [notice] p: worker process 184643 启动并开始运行.....!
+2022/11/21 12:16:11 [stderr] p: nginx: pkglen:0
+
+2022/11/21 12:16:11 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:16:11 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 12:16:11 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:16:31 [stderr] p: nginx: I'ME
+
+2022/11/21 12:16:31 [stderr] p: nginx: 2
+
+2022/11/21 12:16:31 [stderr] p: nginx: 2
+
+2022/11/21 12:17:57 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:22:25 [info] p: listen 80 port successed!
+2022/11/21 12:22:25 [info] p: listen 443 port successed!
+2022/11/21 12:22:26 [notice] p: worker process 184783 启动并开始运行.....!
+2022/11/21 12:22:31 [stderr] p: nginx: reahand:pkglen:8
+
+2022/11/21 12:22:31 [stderr] p: nginx: request::pkglen:8
+
+2022/11/21 12:22:31 [stderr] p: nginx: pkglen:0
+
+2022/11/21 12:22:31 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:22:31 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 12:22:31 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:22:51 [stderr] p: nginx: I'ME
+
+2022/11/21 12:22:51 [stderr] p: nginx: 2
+
+2022/11/21 12:22:51 [stderr] p: nginx: 2
+
+2022/11/21 12:23:12 [stderr] p: nginx: I'ME
+
+2022/11/21 12:23:12 [stderr] p: nginx: 2
+
+2022/11/21 12:23:12 [stderr] p: nginx: 2
+
+2022/11/21 12:23:33 [stderr] p: nginx: I'ME
+
+2022/11/21 12:23:33 [stderr] p: nginx: 2
+
+2022/11/21 12:23:33 [stderr] p: nginx: 2
+
+2022/11/21 12:23:54 [stderr] p: nginx: I'ME
+
+2022/11/21 12:23:54 [stderr] p: nginx: 2
+
+2022/11/21 12:23:54 [stderr] p: nginx: 2
+
+2022/11/21 12:23:54 [stderr] p: nginx: time up no heart packet, get out!
+
+2022/11/21 12:25:14 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:27:10 [info] p: listen 80 port successed!
+2022/11/21 12:27:10 [info] p: listen 443 port successed!
+2022/11/21 12:27:11 [notice] p: worker process 184877 启动并开始运行.....!
+2022/11/21 12:27:24 [info] p: listen 80 port successed!
+2022/11/21 12:27:24 [info] p: listen 443 port successed!
+2022/11/21 12:27:25 [notice] p: worker process 184930 启动并开始运行.....!
+2022/11/21 12:27:28 [stderr] p: nginx: reahand:pkglen:8
+
+2022/11/21 12:27:28 [stderr] p: nginx: request::pkglen:8
+
+2022/11/21 12:27:28 [stderr] p: nginx: logic:pkelen:8
+
+2022/11/21 12:27:28 [stderr] p: nginx: pkglen:0
+
+2022/11/21 12:27:28 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:27:28 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 12:27:28 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:27:48 [stderr] p: nginx: I'ME
+
+2022/11/21 12:27:48 [stderr] p: nginx: 2
+
+2022/11/21 12:27:48 [stderr] p: nginx: 2
+
+2022/11/21 12:28:09 [stderr] p: nginx: I'ME
+
+2022/11/21 12:28:09 [stderr] p: nginx: 2
+
+2022/11/21 12:28:09 [stderr] p: nginx: 2
+
+2022/11/21 12:28:19 [stderr] p: nginx: reahand:pkglen:-1
+
+2022/11/21 12:28:53 [stderr] p: nginx: reahand:pkglen:8
+
+2022/11/21 12:28:53 [stderr] p: nginx: request::pkglen:8
+
+2022/11/21 12:28:53 [stderr] p: nginx: logic:pkelen:8
+
+2022/11/21 12:28:53 [stderr] p: nginx: pkglen:0
+
+2022/11/21 12:28:53 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:28:53 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:28:53 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:28:55 [stderr] p: nginx: reahand:pkglen:-1
+
+2022/11/21 12:29:39 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:30:15 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:38:32 [info] p: listen 80 port successed!
+2022/11/21 12:38:32 [info] p: listen 443 port successed!
+2022/11/21 12:38:33 [notice] p: worker process 185156 启动并开始运行.....!
+2022/11/21 12:38:39 [stderr] p: nginx: reahand:pkglen:8
+
+2022/11/21 12:38:39 [stderr] p: nginx: request::pkglen:8
+
+2022/11/21 12:38:39 [stderr] p: nginx: logic:pkelen:8
+
+2022/11/21 12:38:39 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:38:39 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 12:38:39 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:38:59 [stderr] p: nginx: I'ME
+
+2022/11/21 12:38:59 [stderr] p: nginx: 2
+
+2022/11/21 12:38:59 [stderr] p: nginx: 2
+
+2022/11/21 12:39:20 [stderr] p: nginx: I'ME
+
+2022/11/21 12:39:20 [stderr] p: nginx: 2
+
+2022/11/21 12:39:20 [stderr] p: nginx: 2
+
+2022/11/21 12:39:41 [stderr] p: nginx: I'ME
+
+2022/11/21 12:39:41 [stderr] p: nginx: 2
+
+2022/11/21 12:39:41 [stderr] p: nginx: 2
+
+2022/11/21 12:40:02 [stderr] p: nginx: I'ME
+
+2022/11/21 12:40:02 [stderr] p: nginx: 2
+
+2022/11/21 12:40:02 [stderr] p: nginx: 2
+
+2022/11/21 12:40:02 [stderr] p: nginx: time up no heart packet, get out!
+
+2022/11/21 12:40:43 [stderr] p: nginx: reahand:pkglen:8
+
+2022/11/21 12:40:43 [stderr] p: nginx: reahand:pkglen:100
+
+2022/11/21 12:40:43 [stderr] p: nginx: logic:pkelen:108
+
+2022/11/21 12:40:43 [stderr] p: nginx: calcrc = -83921321, pkgCrc = 406077284
+
+2022/11/21 12:40:43 [stderr] p: nginx: ready to send data 108. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:40:43 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:40:46 [stderr] p: nginx: reahand:pkglen:8
+
+2022/11/21 12:40:46 [stderr] p: nginx: request::pkglen:8
+
+2022/11/21 12:40:46 [stderr] p: nginx: logic:pkelen:8
+
+2022/11/21 12:40:46 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:40:46 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:40:46 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:40:55 [stderr] p: nginx: reahand:pkglen:-1
+
+2022/11/21 12:41:22 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:42:00 [stderr] p: nginx: reahand:pkglen:8
+
+2022/11/21 12:42:00 [stderr] p: nginx: request::pkglen:8
+
+2022/11/21 12:42:00 [stderr] p: nginx: logic:pkelen:8
+
+2022/11/21 12:42:00 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:42:00 [stderr] p: nginx: ready to send data 8. (5: Input/output error) 
+ (5: Input/output error) 
+2022/11/21 12:42:00 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:42:15 [stderr] p: nginx: CSocket::ServerRecyThread() execute, connetion 7 is realese
+
+2022/11/21 12:42:21 [stderr] p: nginx: I'ME
+
+2022/11/21 12:42:21 [stderr] p: nginx: 2
+
+2022/11/21 12:42:21 [stderr] p: nginx: 2
+
+2022/11/21 12:42:42 [stderr] p: nginx: I'ME
+
+2022/11/21 12:42:42 [stderr] p: nginx: 2
+
+2022/11/21 12:42:42 [stderr] p: nginx: 2
+
+2022/11/21 12:43:03 [stderr] p: nginx: I'ME
+
+2022/11/21 12:43:03 [stderr] p: nginx: 2
+
+2022/11/21 12:43:03 [stderr] p: nginx: 2
+
+2022/11/21 12:43:24 [stderr] p: nginx: I'ME
+
+2022/11/21 12:43:24 [stderr] p: nginx: 2
+
+2022/11/21 12:43:24 [stderr] p: nginx: 2
+
+2022/11/21 12:43:24 [stderr] p: nginx: time up no heart packet, get out!
+
+2022/11/21 12:43:45 [info] p: listen 80 port successed!
+2022/11/21 12:43:45 [info] p: listen 443 port successed!
+2022/11/21 12:43:46 [notice] p: worker process 185300 启动并开始运行.....!
+2022/11/21 12:43:48 [stderr] p: nginx: recive the ping packet!
+
+2022/11/21 12:43:48 [stderr] p: nginx: ready to send data 8.
+
+2022/11/21 12:43:48 [stderr] p: nginx: CSocket::ServerSendQueueThread()'s data sent over!
+
+2022/11/21 12:45:11 [stderr] p: nginx: time up no heart packet, get out!
+
+2022/11/22 14:30:23 [info] p: listen 80 port successed!
+2022/11/22 14:30:23 [info] p: listen 443 port successed!
+2022/11/22 14:30:24 [notice] p: worker process 13250 启动并开始运行.....!
+2022/11/22 14:31:50 [stderr] p: nginx: alert the flood attack, kill the client
+

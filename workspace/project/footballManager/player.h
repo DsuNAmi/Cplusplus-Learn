@@ -8,6 +8,7 @@
 #include "settings.h"
 
 
+
 class Player
 {
     private:
@@ -60,8 +61,12 @@ class Player
         UTT RandomAbility() {return static_cast<UTT>(rand() % Player::AbilityLimit)
                              + Player::AbilityStart;}
 
-             
+
+    public:
+        void ControlBall(); 
+        void RealseBall();
+              
 };
 
 
-#endif
+#endif  

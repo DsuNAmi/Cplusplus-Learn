@@ -85,3 +85,14 @@ UTT Player::SetAbility(UTT abilityNumber)
 }
 
 
+void Player::ControlBall()
+{
+
+}
+
+void Player::RealseBall()
+{
+
+}
+
+
