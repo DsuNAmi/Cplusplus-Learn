@@ -31,7 +31,10 @@ static u_char errLevels[][20] =
 
 
 ngxLogT ngxLog;
-
+/// @brief 打印结果到日志中
+/// @param err , 日志等级
+/// @param fmt , 输出的字符串格式
+/// @param printResult(...), 这里是要打印的变量
 void NgxLogStderr(int err, const char * fmt, ...)
 {
     va_list args;           //创建一个va_list变量

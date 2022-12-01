@@ -29,9 +29,6 @@ int gDaemonized = 0;
 
 // CSocket gSocket;
 CLogicSocket gSocket;
-CThreadPool gThreadPool;
-
-
 
 pid_t ngxPid;
 pid_t ngxParent;
@@ -58,7 +55,6 @@ int main(int argc, char * const * argv)
     {
         gEnvneedmem += strlen(environ[i]) + 1;
     }
-
 
 
 
