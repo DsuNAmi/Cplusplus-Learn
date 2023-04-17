@@ -528,7 +528,7 @@ int CSocket::NgxEpollInit()
         //     //这是致命问题
         //     NgxLogStderr(errno,"CSocket::NgxEpollInit() NgxGetConnection falied");
         //     exit(2);
-        // }
+        // }  
         // c->listening = (*pos);  //连接对象和监听对象
         // (*pos)->connection = c; //监听对象连接连接池
 

@@ -49,7 +49,6 @@ class CConfig
 
         ~CConfig();
 
-};  
-
+};
 
 #endif
